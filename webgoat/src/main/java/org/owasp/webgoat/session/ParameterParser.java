@@ -671,8 +671,7 @@ public class ParameterParser
 	 */
 	public String getStringParameter(String name) throws ParameterNotFoundException
 	{
-		String[] values = request.getParameterValues(name);
-		String value;
+		
 
 		if (values == null)
 		{
