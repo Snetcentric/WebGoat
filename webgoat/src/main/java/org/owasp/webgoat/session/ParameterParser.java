@@ -610,7 +610,7 @@ public class ParameterParser
 	 * @exception ParameterNotFoundException
 	 *                Description of the Exception
 	 */
-	public String getRawParameter(String name) throws ParameterNotFoundException
+	/*public String getRawParameter(String name) throws ParameterNotFoundException
 	{
 		String[] values = request.getParameterValues(name);
 
@@ -621,7 +621,7 @@ public class ParameterParser
 		else if (values[0].length() == 0) { throw new ParameterNotFoundException(name + " was empty"); }
 
 		return (values[0]);
-	}
+	}*/
 
 	/**
 	 * Gets the named parameter value as a short
